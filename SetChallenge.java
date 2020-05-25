@@ -134,9 +134,6 @@ public class SetChallenge {
         }
 
         System.out.println("===================");
-//        for(HeavenlyBody.Key key : solarSystem.keySet()) {
-//            System.out.println(key.getName() + ": " + solarSystem.get(key).getKey().getBodyType());
-//        }
 
         HeavenlyBody earth1 = new Planet("Earth", 365);
         HeavenlyBody earth2 = new Planet("Earth", 365);
@@ -144,9 +141,6 @@ public class SetChallenge {
         System.out.println(earth2.equals(earth1));
         System.out.println(earth1.equals(pluto));
         System.out.println(pluto.equals(earth1));
-
-//        HeavenlyBody uranus1 = new Planet("Uranus", 1234);
-//        solarSystem.put(uranus1.getKey(), uranus1);
 
         System.out.println("The solar system contains:");
         for(HeavenlyBody heavenlyBody : solarSystem.values()) {
